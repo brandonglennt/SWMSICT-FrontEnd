@@ -64,7 +64,6 @@ export default class Navbar extends React.PureComponent {
             <Link to="/Results" className="navButton">RESULTS</Link>
             <Link to="/Logout" className="navButton">LOGOUT</Link>
           </div>
-          <Bars className="menuIcon" onClick={this.handleMenu}/>
         </nav>
       </div>
     );

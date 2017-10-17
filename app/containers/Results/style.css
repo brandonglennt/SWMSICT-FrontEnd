@@ -6,7 +6,7 @@
 }
 
 .resultsBackground {
-  background-color: #ddd;
+  background-color: rgba(47, 54, 80,1);
 	background-size: cover;
   width: 100%;
   min-height: 100vh;
@@ -14,7 +14,7 @@
 
 
 .resultsBanner {
-  background-color: #ccc;
+  background-color: rgba(47, 54, 80,1);
   animation-name: fadein;
   animation-duration: 2s;
 }
@@ -24,36 +24,39 @@
 }
 
 .resultsBanner h1 {
-  font-size: 3em;
+  font-size: 4em;
   text-align: center;
-  color: rgba(248,250,242,.8);
+  color:#ccc;
+  font-weight:;
 }
 
 .resultsBanner p {
-  font-size: 1.1em;
+  font-size: 1.3em;
   text-align: center;
   margin-top:;
-  color: rgba(248,250,242,.8);
+  color:#ccc;
 }
 
 .resultsFilters {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  background: #bbb;
+  background-color: rgba(47, 54, 80,1);
   text-align: center;
   font-size: 1.2em;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .resultsFilters select {
-  color: rgba(255,255,255,.8);
+  color:#ccc;
   display: flex;
   flex-direction: row;
   background: transparent;
   width:auto;
   text-align-last: center;
   padding: px;
-  font-size: 1em;
+  font-size: .9em;
   border: 0px solid #ddd;
   height:35px;
   cursor: pointer;
@@ -66,21 +69,29 @@
     text-overflow: '';
 }
 
-
 .resultsFilters select:focus {
   outline: none;
 }
 
 .resultsFilters select:hover {
-  background:url("../../photos/results-arrow-hover.png") no-repeat right rgba(0,0,0,.0);
-  color: rgba(255,255,255,1);
+  /*background:url("../../photos/results-arrow-hover.png") no-repeat right rgba(0,0,0,.0);*/
+  color: rgba(255,255,255,.9);
 }
 
 .feesFilter select {
   padding-right: 25px;
 }
 
+.feesFilter img {
+  padding-right: 25px;
+}
+
 .performanceFilter select {
+  padding-right: 25px;
+  padding-left: 160px;
+}
+
+.performanceFilter img {
   padding-right: 25px;
   padding-left: 160px;
 }
@@ -90,7 +101,80 @@
   padding-left: 160px;
 }
 
+.specialOffersFilter img {
+  padding-right: 25px;
+  padding-left: 160px;
+}
+
 .locationFilter select {
   padding-right: 25px;
   padding-left: 160px;
+}
+
+.locationFilter img {
+  padding-right: 25px;
+  padding-left: 160px;
+}
+
+.resultsBox {
+  min-height:100vh;
+  background:#eee;
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 20px;
+}
+
+.result {
+  min-height:;
+  margin-top: 15px;
+  margin-right: 15px;
+  margin-left: 15px;
+  display:flex;
+  flex-direction: row;
+  border: 0px solid #CCCCCC;
+  border-radius: 5px;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.1);
+  background: rgba(0, 0, 0, 0.1);
+  text-decoration: none;
+  color: rgba(47, 54, 80,.8);
+  padding-right: 10px;
+  padding-left: 4px;
+  padding-top: 3px;
+}
+
+.resultLogo{
+  display: flex;
+  flex-direction: column;
+  min-height: inherit;
+  width: 150px;
+  padding: 6px;
+}
+
+.logoImage{
+  width: 150px;
+  border-radius: 5px;
+}
+
+.imageInfoBuffer {
+  padding-left: 6px;
+}
+
+.companyAndProductTitle {
+  padding-top: 3px;
+}
+
+.companyAndProductTitle:hover {
+text-decoration: underline;
+color:white;
+}
+
+.resultProuctFont {
+  color: #7f0000;
+}
+
+.resultDescription {
+  padding-top: 5px;
 }

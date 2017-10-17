@@ -20,9 +20,10 @@
 }
 
 .contactBanner h1 {
-  font-size: 5em;
+  font-size: 4em;
   text-align: center;
   color: rgba(248,250,242,.7);
+  font-weight: bold;
   animation-name: fadein;
   animation-duration: 4s;
   }
@@ -99,7 +100,7 @@
 
 .contactForm input[type="text"] {
   width: 70%;
-  margin-bottom: 80px;
+  margin-bottom: 70px;
   border: none;
   border-bottom: 2px solid rgba(93, 147, 157, 1);
   outline: none;
