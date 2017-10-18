@@ -43,7 +43,7 @@
   padding-top: 95px;
   padding-bottom: 95px;
   color: rgba(248,250,242,.9);
-  font-size: 1.2em;
+  font-size: 1.1em;
 }
 
 .imageBoxes h2 {
@@ -54,17 +54,9 @@
 .imageBoxes p {
   color: rgba(248,250,242,.8);
 }
-.compoundInterestBox {
-  margin-left: 125px;
-}
-
-.compoundInterestBox h2 {
-margin-top: 10px;
-margin-bottom: 10px;
-}
 
 .educationProductBox {
-  margin-left: 70px;
+  margin-left: 100px;
 }
 
 .educationProductBox h2 {
@@ -73,7 +65,7 @@ margin-bottom: 10px;
 }
 
 .educationPerformanceBox {
-  margin-left: 70px;
+  margin-left: 60px;
 }
 
 .educationPerformanceBox h2 {
@@ -81,9 +73,18 @@ margin-top: 10px;
 margin-bottom: 10px;
 }
 
+.compoundInterestBox {
+  margin-left: 60px;
+}
+
+.compoundInterestBox h2 {
+margin-top: 10px;
+margin-bottom: 10px;
+}
+
 .educationExpensesBox {
-  margin-left: 70px;
-  margin-right: 125px;
+  margin-left: 60px;
+  margin-right: 100px;
 }
 
 .educationExpensesBox h2 {
@@ -101,12 +102,46 @@ margin-bottom: 10px;
 
 .educationInfo {
   font-size: 1.4em;
-  color: rgba(47, 54, 80,.8);
-  background-color:rgba(229,176,144,.2);
-  padding-left:200px;
-  padding-right:200px;
+  color: rgba(47, 54, 80,.9);
+  /*background-color:rgba(229,176,144,.2);*/
+  background-color: white;
+  padding-left:150px;
+  padding-right:150px;
   padding-top: 60px;
   padding-bottom: 60px;
+}
+
+.educationInfo h2{
+  text-align: center;
+  padding-bottom:;
+  font-size: 2.5em;
+}
+
+.educationTitleDivider {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: .5em;
+  margin-bottom: .5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: .5px;
+  border-color:rgba(47, 54, 80,.2);
+}
+
+.educationInfo h3{
+  text-align: center;
+  padding-bottom: 15px;
+  font-size: 1.4em;
+  color: rgba(47, 54, 80,.7);
+}
+
+.educationInfo h4{
+  padding-bottom: 5px;
+  font-size: 1.1em;
+  font-weight: bold;
+  color: rgba(47, 54, 80,.9);
 }
 
 .startNowBox {

@@ -87,15 +87,6 @@ export default class UserInfo extends React.PureComponent {
           {this.renderUserInfoRisk()}
           {this.renderUserInfoProducts()}
         </main>
-        <footer>
-          <ul className="progressBar">
-            <li class="active">CONTRIBUTION</li>
-            <li>RISK TOLERANCE</li>
-            <li>PRODUCTS</li>
-          </ul><br/>
-        </footer>
-
-
       </div>
     );
   }

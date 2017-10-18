@@ -31,6 +31,7 @@ export default class Results extends React.PureComponent {
             <h1>
               Search Results
             </h1>
+            <hr className="resultTitleDivider"/>
             <p>
               The following investment products have been curated with your goals in mind.
             </p>
@@ -82,7 +83,7 @@ export default class Results extends React.PureComponent {
             <div className="result">
               <div className="resultLogo">
                 <a href="https://www.vanguard.com" target="_blank">
-                    <img className="logoImage" src={require("../../photos/results-vanguard.jpg")} alt="Vanguard Logo" title="Visit Website"/>
+                    <img className="logoImage" src={require("../../photos/logo-Vanguard.jpg")} alt="Vanguard Logo" title="Visit Website"/>
                 </a>
               </div>
               <div className="imageInfoBuffer">
@@ -101,7 +102,7 @@ export default class Results extends React.PureComponent {
           <div className="result">
             <div className="resultLogo">
               <a href="https://www.vanguard.com" target="_blank">
-                  <img className="logoImage" src={require("../../photos/results-charles.png")} alt="Vanguard Logo"/>
+                  <img className="logoImage" src={require("../../photos/logo-CharlesSchwab.png")} alt="Vanguard Logo"/>
               </a>
             </div>
             <div className="imageInfoBuffer">
@@ -120,7 +121,7 @@ export default class Results extends React.PureComponent {
         <div className="result">
           <div className="resultLogo">
             <a href="https://www.vanguard.com" target="_blank">
-                <img className="logoImage" src={require("../../photos/results-ameritrade.jpg")} alt="Vanguard Logo"/>
+                <img className="logoImage" src={require("../../photos/logo-Ameritrade.jpg")} alt="Vanguard Logo"/>
             </a>
           </div>
           <div className="imageInfoBuffer">
@@ -139,7 +140,7 @@ export default class Results extends React.PureComponent {
       <div className="result">
         <div className="resultLogo">
           <a href="https://www.vanguard.com" target="_blank">
-              <img className="logoImage" src={require("../../photos/results-voya.png")} alt="Vanguard Logo"/>
+              <figure><img className="logoImage" src={require("../../photos/logo-Voya.png")} alt="Vanguard Logo"/></figure>
           </a>
         </div>
         <div className="imageInfoBuffer">
@@ -158,7 +159,7 @@ export default class Results extends React.PureComponent {
         <div className="result">
           <div className="resultLogo">
             <a href="https://www.vanguard.com" target="_blank">
-                <img className="logoImage" src={require("../../photos/results-ishares.jpg")} alt="Vanguard Logo"/>
+                <img className="logoImage" src={require("../../photos/logo-iShares.jpg")} alt="Vanguard Logo"/>
             </a>
           </div>
           <div className="imageInfoBuffer">
@@ -176,7 +177,11 @@ export default class Results extends React.PureComponent {
 
           </div>
         </section>
-
+        <section>
+          <SignInBox/>
+          <SignupBox/>
+          <WouldYouLike/>
+        </section>
       </main>
     </div>
     );

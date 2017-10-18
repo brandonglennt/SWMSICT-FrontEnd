@@ -53,7 +53,10 @@ export default class Navbar extends React.PureComponent {
       <div>
         <nav className="navBar">
           <div className="siteName">
-            <img src={require("../../photos/logo-white.png")} className="homeLogo"/>
+            <a href="/">
+              <img className="homeLogo" src={require("../../photos/logo-white.png")} alt="SWMS Logo" title="Home"/>
+            </a>
+
           </div>
           <div className="nav">
             <Link to="/" className="navButton">HOME</Link>

@@ -64,15 +64,16 @@ html, p {
   text-align: center;
   height: 25px;
   font-size: 25px;
-  border-color: rgba(128, 128, 128, .7);
+  border-color: rgba(47, 54, 80,.5);
+  border-width: 1px;
   margin-top: 15px;
-  color: rgba(0, 0, 0, .7);
-  font-weight: lighter;
+  color: rgba(47, 54, 80,.9);
+  font-weight:lighter;
 }
 
 .signInInput::placeholder {
-  color: rgba(128, 128, 128, .85);
-  font-weight: lighter;
+  color: rgba(47, 54, 80,.55);
+  font-weight:lighter;
 }
 .signInInput:focus {
   outline: none;
@@ -95,10 +96,10 @@ html, p {
  display: inline-block;
  padding: 10px 14px;
  color: rgba(255,255,255, .8);
- border: 0px solid rgba(128, 128, 128, .8);
+ border: 0px solid rgba(47, 54, 80,.9);
  text-decoration: none;
  line-height: 100%;
- background-color: rgba(128, 128, 128, .8);
+ background-color: rgba(47, 54, 80,.9);
  border-radius: 6px;
  transition: 400ms ease;
  font-weight: lighter;
@@ -108,9 +109,9 @@ html, p {
 }
 
 .logInButton:hover {
-  background-color:rgba(128, 128, 128, 1);
+  background-color:rgba(47, 54, 80,1);
   color: #fff;
-  border: 0px solid rgba(128, 128, 128, 1);
+  border: 0px solid rgba(47, 54, 80,1);
 }
 
 .logInButton:active {

@@ -23,7 +23,7 @@
   font-size: 4em;
   text-align: center;
   color: rgba(248,250,242,.7);
-  font-weight: bold;
+  font-weight: normal;
   animation-name: fadein;
   animation-duration: 4s;
   }

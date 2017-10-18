@@ -10,9 +10,10 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
-  font-size: 3.1em;
+  font-size: 2.5em;
   animation-name: fadein;
   animation-duration: 2s;
+  padding-bottom: 150px;
 }
 
 @-webkit-keyframes fadein {
@@ -36,22 +37,53 @@ font-family: sans-serif;
   width: 350px;
 }
 
+.stockBox {
+  padding-top: 10px;
+  padding-bottom:10px;
+}
+
+.bondBox {
+  padding-top: 10px;
+  padding-bottom:10px;
+}
+
+.mutualFundsBox {
+  padding-top: 10px;
+}
+
 .columnTwo {
   display: flex;
   flex-direction: column;
   width: 310px;
 }
+
+.etfBox {
+  padding-top: 10px;
+  padding-bottom:10px;
+}
+
+.retirementBox {
+  padding-top: 10px;
+  padding-bottom:10px;
+}
+
+.indexFundsBox {
+  padding-top: 10px;
+}
+
 .checkBox {
   display:flex;
-  width: 40px;
+  width: 32px;
   border: 2px solid white;
   border-radius: 5px;
   float:left;
   margin-right: 10px;
 }
+
 .option {
 /*  float:right;*/
 }
+
 .continueButtonContainer {
   display: flex;
   align-items: center;
@@ -63,12 +95,12 @@ font-family: sans-serif;
   display: inline-block;
 	padding: 10px 14px;
   margin: 40px;
-	color: rgba(255,255,255, .8);
-	border: 3.0px solid rgba(255,255,255, .8);
+	color: rgba(255,255,255, .9);
+	border: 3.0px solid rgba(255,255,255, 0);
 	text-decoration: none;
-	font-size: .6em;
+	font-size: .7em;
 	line-height: 120%;
-	background-color: rgba(255,255,255, 0);
+	background-color: rgba(201, 177, 155, .7);
 	border-radius: 6px;
 	transition: 400ms ease;
   font-weight: normal;
