@@ -78,6 +78,7 @@ export default class Results extends React.PureComponent {
 
         <section>
           <div className="resultsBox">
+            <hr className="filterTitleDivider"/>
             <div className="result">
               <div className="resultLogo">
                 <a href="https://www.vanguard.com" target="_blank">
@@ -89,6 +90,7 @@ export default class Results extends React.PureComponent {
                 <h2>Vanguard - Index Fund</h2>
               <div className="resultProductInfo"></div>
               <span className="resultProuctFont">Risk Level: Moderate | Performance: 6.78% | Fees & Expenses: 2.45% | Minimum Investment: $1 | Special Offers: No | Physical Location: No</span>
+              <hr className="resultBorder"/>
               <div className="resultDescription"></div>
                 <p>
                   The fund seeks to achieve its investment objective by investing primarily in affiliated Schwab exchange-traded funds (ETFs). It has a policy to invest, under normal circumstances, at least 80% of its assets (net assets, plus the amount of any borrowings for investment purposes) in underlying funds that are managed to seek investment returns that track particular market indices. The fund is managed based on the specific retirement date (target date) included in its name and assumes a retirement age of 65.
@@ -107,6 +109,7 @@ export default class Results extends React.PureComponent {
               <h2>Charles Schwab - Retirement Fund</h2>
             <div className="resultProductInfo"></div>
             <span className="resultProuctFont">Risk Level: Moderate | Performance: 6.78% | Fees & Expenses: 2.45% | Minimum Investment: $1 | Special Offers: No | Physical Location: No</span>
+            <hr className="resultBorder"/>
             <div className="resultDescription"></div>
               <p>
                 The fund seeks to achieve its investment objective by investing primarily in affiliated Schwab exchange-traded funds (ETFs). It has a policy to invest, under normal circumstances, at least 80% of its assets (net assets, plus the amount of any borrowings for investment purposes) in underlying funds that are managed to seek investment returns that track particular market indices. The fund is managed based on the specific retirement date (target date) included in its name and assumes a retirement age of 65.
@@ -125,6 +128,7 @@ export default class Results extends React.PureComponent {
             <h2>Ameritrade - College Fund</h2>
           <div className="resultProductInfo"></div>
           <span className="resultProuctFont">Risk Level: Moderate | Performance: 6.78% | Fees & Expenses: 2.45% | Minimum Investment: $1 | Special Offers: No | Physical Location: No</span>
+          <hr className="resultBorder"/>
           <div className="resultDescription"></div>
             <p>
               The fund seeks to achieve its investment objective by investing primarily in affiliated Schwab exchange-traded funds (ETFs). It has a policy to invest, under normal circumstances, at least 80% of its assets (net assets, plus the amount of any borrowings for investment purposes) in underlying funds that are managed to seek investment returns that track particular market indices. The fund is managed based on the specific retirement date (target date) included in its name and assumes a retirement age of 65.
@@ -135,20 +139,41 @@ export default class Results extends React.PureComponent {
       <div className="result">
         <div className="resultLogo">
           <a href="https://www.vanguard.com" target="_blank">
-              <img className="logoImage" src={require("../../photos/results-voya.jpg")} alt="Vanguard Logo"/>
+              <img className="logoImage" src={require("../../photos/results-voya.png")} alt="Vanguard Logo"/>
           </a>
         </div>
-        <div>
+        <div className="imageInfoBuffer">
         <div className="companyAndProductTitle"></div>
           <h2>Voya - Target Index Fund</h2>
         <div className="resultProductInfo"></div>
         <span className="resultProuctFont">Risk Level: Moderate | Performance: 6.78% | Fees & Expenses: 2.45% | Minimum Investment: $1 | Special Offers: No | Physical Location: No</span>
+        <hr className="resultBorder"/>
         <div className="resultDescription"></div>
           <p>
             The fund seeks to achieve its investment objective by investing primarily in affiliated Schwab exchange-traded funds (ETFs). It has a policy to invest, under normal circumstances, at least 80% of its assets (net assets, plus the amount of any borrowings for investment purposes) in underlying funds that are managed to seek investment returns that track particular market indices. The fund is managed based on the specific retirement date (target date) included in its name and assumes a retirement age of 65.
           </p>
       </div>
     </div>
+
+        <div className="result">
+          <div className="resultLogo">
+            <a href="https://www.vanguard.com" target="_blank">
+                <img className="logoImage" src={require("../../photos/results-ishares.jpg")} alt="Vanguard Logo"/>
+            </a>
+          </div>
+          <div className="imageInfoBuffer">
+          <div className="companyAndProductTitle"></div>
+            <h2>iShares - College Fund</h2>
+          <div className="resultProductInfo"></div>
+          <span className="resultProuctFont">Risk Level: Moderate | Performance: 6.78% | Fees & Expenses: 2.45% | Minimum Investment: $1 | Special Offers: No | Physical Location: No</span>
+          <hr className="resultBorder"/>
+          <div className="resultDescription"></div>
+            <p>
+              The fund seeks to achieve its investment objective by investing primarily in affiliated Schwab exchange-traded funds (ETFs). It has a policy to invest, under normal circumstances, at least 80% of its assets (net assets, plus the amount of any borrowings for investment purposes) in underlying funds that are managed to seek investment returns that track particular market indices. The fund is managed based on the specific retirement date (target date) included in its name and assumes a retirement age of 65.
+            </p>
+        </div>
+      </div>
+
           </div>
         </section>
 
