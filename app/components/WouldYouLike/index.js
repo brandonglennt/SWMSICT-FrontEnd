@@ -16,9 +16,9 @@ export default class WouldYouLike extends React.PureComponent {
       <div className="wouldYouLikeBox">
         <div className="wouldYouLikeHeader">
           <p>
-            <div className="closeX">
+            <div className="closeWouldYouLikeX">
               <span>
-                <FaClose className="x"/>
+                <FaClose className="wouldYouLikeX"/>
               </span>
             </div>
           </p>

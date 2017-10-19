@@ -24,7 +24,7 @@ export default class Education extends React.PureComponent {
           <div className="educationBanner">
             <Navbar/>
             <h1>
-              Investing 101
+              LEARN MORE
             </h1>
             <p>
             </p>

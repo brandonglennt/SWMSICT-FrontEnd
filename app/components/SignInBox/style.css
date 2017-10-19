@@ -1,13 +1,11 @@
 /* SignInBox Styles */
 
-@import url('https://fonts.googleapis.com/css?family=Roboto');
-
 .signInBox {
   margin-top:100px;
   margin-left: auto;
   margin-right: auto;
-  width: 380px;
-  height: 380px;
+  width: 360px;
+  height: 365px;
   border-radius: 10px;
   z-index: 10000;
   border: 0px solid rgba(255, 255, 255, 1);
@@ -19,30 +17,28 @@
     from { opacity: 0; }
     to   { opacity: .8; }
   }
-html, p {
-  font-family: 'Roboto', sans-serif;
-}
+
 /*.signInHeader {
   background: rgba(128, 128, 128, .9);
   border-top-right-radius: 10px;
   border-top-left-radius: 10px;
   border-bottom: 1px solid black;
 }*/
-.singInHeader p {
+.signInHeader p {
   padding: 0 5px;
   padding-bottom: 5px;
   padding-top: 5px;
 }
-.closeX {
+.closeSignInX {
   float: right;
 }
-.x {
+.signInX {
   font-size: 20px;
-  color:rgba(128, 128, 128, .9);
-  margin-right: 8px;
+  color:rgba(47, 54, 80,.9);
+  margin-right: 3px;
 }
-.x:hover {
- color: rgba(128, 128, 128, .9);
+.signInX:hover {
+ color:rgba(47, 54, 80,1);
  animation: bounce 2s;
  animation-iteration-count: 1;
 }
@@ -69,6 +65,7 @@ html, p {
   margin-top: 15px;
   color: rgba(47, 54, 80,.9);
   font-weight:lighter;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 .signInInput::placeholder {
@@ -106,6 +103,7 @@ html, p {
  outline: none;
  cursor: pointer;
  font-size: .8em;
+ font-family: 'Roboto Condensed', sans-serif;
 }
 
 .logInButton:hover {

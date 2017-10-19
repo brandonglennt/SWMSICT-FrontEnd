@@ -63,6 +63,9 @@ cursor: pointer;
   margin-right:15px;
   font-weight:normal;
   text-decoration:none;
+  font-size: 1.2em;
+  /*Title Font*/font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: 500;
 }
 
 .navButton:hover {

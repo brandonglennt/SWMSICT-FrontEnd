@@ -10,10 +10,10 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
-  font-size: 2.5em;
+  font-size: 2.3em;
   animation-name: fadein;
   animation-duration: 2s;
-  padding-bottom: 150px;
+  padding-bottom: 180px;
 }
 
 @-webkit-keyframes fadein {
@@ -41,7 +41,8 @@
   border-radius:50%;
   border:3px solid rgba(255,255,255, .3);
   color: rgba(255,255,255, .8);
-  font-family: sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
+;
   font-weight: lighter;
   justify-content: center;
   margin:20px;
@@ -89,6 +90,7 @@
   outline: none;
   cursor: pointer;
   align-items: center;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 .userInfoRisk input[type="button"]:hover {

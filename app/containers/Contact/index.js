@@ -21,7 +21,7 @@ export default class Contact extends React.PureComponent {
           <div className="contactBanner">
             <Navbar/>
             <h1>
-              Get in Touch
+              CONTACT US
             </h1>
           </div>
           <section className="contactForm">

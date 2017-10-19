@@ -25,6 +25,7 @@
   animation-duration: 4s;
   color: rgba(255,255,255, .8);
   font-size: 60px;
+  /*Title Font*/font-family: 'Open Sans Condensed', sans-serif;
 }
 
 @-webkit-keyframes fadein {
@@ -59,6 +60,7 @@
   font-weight: lighter;
   outline: none;
 	cursor: pointer;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 .welcomeScreen input[type="submit"]:hover

@@ -16,8 +16,8 @@ export default class SignInBox extends React.PureComponent {
       <div className="signInBox">
         <div className="signInHeader">
           <p> &nbsp;
-            <div className="closeX">
-                <FaClose className="x"/>
+            <div className="closeSignInX">
+                <FaClose className="signInX"/>
             </div>
           </p>
         </div>

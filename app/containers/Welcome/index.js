@@ -27,8 +27,8 @@ export default class Welcome extends React.PureComponent {
         <main>
         <div className="welcomeTitle">
         <h1>
-          <div>Your future</div>
-          <div>begins today.</div>
+          <div>YOUR FUTURE</div>
+          <div>BEGINS TODAY</div>
         </h1>
 
         </div>

@@ -13,12 +13,16 @@
   font-size: 2.5em;
   animation-name: fadein;
   animation-duration: 2s;
-  padding-bottom: 150px;
+  padding-bottom: 180px;
 }
 
 @-webkit-keyframes fadein {
     from { opacity: 0; }
     to   { opacity: .8; }
+}
+
+.userInfoContribution h1 {
+  font-weight:;
 }
 
 .userInfoContribution input[type="number"] {
@@ -52,6 +56,7 @@
   outline: none;
 	cursor: pointer;
   align-items: center;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 .userInfoContribution input[type="button"]:hover {

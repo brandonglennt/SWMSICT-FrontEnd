@@ -17,8 +17,8 @@ export default class SignupBox extends React.PureComponent {
       <div className="signUpBox">
         <div className="signUpHeader">
           <p> &nbsp;
-            <div className="closeX">
-                <FaClose className="x"/>
+            <div className="closeSignUpX">
+                <FaClose className="signUpX"/>
             </div>
           </p>
         </div>

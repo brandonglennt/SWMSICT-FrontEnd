@@ -29,7 +29,7 @@ export default class Results extends React.PureComponent {
 
           <section className="resultsBanner">
             <h1>
-              Search Results
+              SEARCH RESULTS
             </h1>
             <hr className="resultTitleDivider"/>
             <p>
@@ -176,11 +176,6 @@ export default class Results extends React.PureComponent {
       </div>
 
           </div>
-        </section>
-        <section>
-          <SignInBox/>
-          <SignupBox/>
-          <WouldYouLike/>
         </section>
       </main>
     </div>
